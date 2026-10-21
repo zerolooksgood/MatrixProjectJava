@@ -1,12 +1,10 @@
-import Task1.Task1;
-import Task2.Task2;
-import Task3.Task3;
+import matrixPathFinder.MatrixPathFinder;
 
 public class Main {
     public static void main(String[] args) {
         long start = System.nanoTime();
 
-        Task1.task1();
+        MatrixPathFinder.matrixPathFinderExecution();
 
         long end = System.nanoTime();
         long timeElapsed = end - start;
